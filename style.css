@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+.header-main-text{
+    padding: 8% 3% 8% 3%;
+}
+.header-main-text h1{
+    font-size: 80px;
+    font-family: "Neue Montreal Medium", serif;
+    font-weight: 600;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.imgContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,450px);
+}
+.imgDivs{
+    margin: 3% 5% 0% 5%;
+}
+.imgDivs img{
+    border-radius: 13px;
+}
+/*footer*/
+footer img{
+    width: 10%;
+}
+.social-contact{
+    display: flex;
+}
+footer h2{
+    text-align: center;
+}
