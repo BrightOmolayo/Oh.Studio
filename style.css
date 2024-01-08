@@ -107,3 +107,116 @@ nav a{
 .header-main-text button a{
     text-decoration: none;
 }
+
+@media screen  and (max-width:480px){
+
+    *{
+        padding: 2%;
+        margin: 0;
+    }
+    header{
+        text-align: center;
+    }
+    .header-main-text{
+        padding: 8% 3% 8% 3%;
+    }
+    .header-main-text h1{
+        font-size: 30px;
+        font-family: "Neue Montreal Medium", serif;
+        font-weight: 600;
+        margin-bottom: 10%;
+        padding: 3% 3% 0% 3%;
+    }
+    img{
+        width: 100%;
+        display: block;
+    }
+    .imgContainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6,200px);
+    }
+    .imgDivs{
+        margin: 3% 5% 0% 5%;
+    }
+    .imgDivs img{
+        border-radius: 13px;
+    }
+    /*footer*/
+    footer img{
+        width: 10%;
+        margin: 4%;
+        display: none;
+    }
+    footer p{
+        position: relative;
+        top: 29%;
+        display: none;
+    }
+    .social-contact{
+        display: block;
+    }
+    .social-links{
+        position: relative;
+        left: 15%;
+    }
+    
+    .social-links a{
+        margin: 2px;
+        color: black;
+    }
+    .social-logo{
+        display: block;
+    }
+    
+    footer h2{
+        text-align: center;
+        font-size:34px;
+        margin-bottom: 10%;
+    }
+    footer a{
+        text-decoration: none;
+        
+    }
+    .get{
+        color: #acacac;
+    }
+    footer{
+        padding-top: 9%;
+    }
+    
+    /*nav*/
+    nav{
+        width: 90%;
+        position: relative;
+        left: 0%;
+        background-color: #f4f2f0;
+        margin: 8% 5% 8% 5%;
+        border-radius: 20px;
+    }
+    nav button{
+        padding: 3% 3% 3% 3%;
+        margin: 1%;
+        border: transparent;
+    }
+    
+    nav button:hover{
+        background-color: white;
+        border-radius: 15px;
+    }
+    nav a{
+        text-decoration: none;
+    
+    }
+    /*header-main-text button*/
+    .header-main-text button{
+        display: none;
+    }
+    #expertise{
+        background-color: transparent;
+    }
+    .header-main-text  a{
+        text-decoration: none;
+    }
+    
+}
